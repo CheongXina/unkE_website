@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'SmashFontRes';
+    src: url('../public/resource/smash.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #222;
+    font-family: 'SmashFontRes';
+}
+.cleanFont {
+    font-family: 'Calibri';
+    text-shadow: 2px 2px 2px black;
+    color: rgb(220, 215, 193);
+    font-size: large;
+}
+
+.linkContainer {
+    font-family: 'Calibri';
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    max-width: 30%;
+    background-color: #393939;
+    border-radius: 10px;
+    }
